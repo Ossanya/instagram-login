@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1 {
+    font-family: 'Lobster', cursive; 
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.loginbox {
+    background: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin: 10px;
+    border-radius: 3%;
+    max-width: 800px;
+    min-width: 200px;
+    max-height: 800px;
+    min-height: 200px;
+  }
+  
+  .loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .loginbox input[type="text"],
+  input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(7, 5, 5);
+    font-size: 16px;
+  }
+  
+  .loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #5654a5;
+    color: rgb(240, 220, 220);
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  
+  .loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: lightblue;
+    color: #000;
+  }
+  
+  .loginbox a {
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  .loginbox a:hover {
+    color: rgb(9, 93, 104);
+  }
+  
+
+p {
+    text-align: center;
+}
